@@ -8,18 +8,18 @@ const BookController = require("./controllers/BookController");
 */
 
 // Index
-routes.get("/products", BookController.index);
+routes.get("/books", BookController.index);
 
 // Add
-routes.post("/products", BookController.insert);
+routes.post("/books", BookController.insert);
 
 // Update
-routes.put("/products/:id", BookController.update);
+routes.put("/books/:id", BookController.update);
 
 // Show
-routes.get("/products/:id", BookController.show);
+routes.get("/books/:id", BookController.show);
 
 // Delete
-routes.delete("/products/:id", BookController.delete);
+routes.delete("/books/:id", BookController.delete);
 
 module.exports = routes;

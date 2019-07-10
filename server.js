@@ -10,7 +10,7 @@ app.use(cors());
 requireDir("./src/models");
 
 
-// Pattern Router
+// Pattern Router - Example: localhost:3000/api, this is pattern router.
 app.use("/api", require("./src/routes"));
 
 app.listen(3000);
