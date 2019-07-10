@@ -1,7 +1,7 @@
 
 # API REST with NodeJs and MySQL
 
-    It´s a simple example API with NodeJs and MySQL for CRUD's. From here, your can modify the application and create new functionality.
+    It´s a simple example API with NodeJs and MySQL for CRUD's. The NodeJs it's in architeture MVC(Model View Controller). From here, your can modify the application and create new functionality.
 
 # Example Usage
 
